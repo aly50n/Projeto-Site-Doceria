@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Recursos do HTML5</title>
+</head>
+<body>
+    <header><nav>
+        <ul>
+            <li><a href="s">Home</a></li>
+            <li><a href="s">Produtos</a></li>
+            <li><a href="s">Contato</a></li>
+        </ul>
+    </nav></header>
+    <article>
+        <h1>Recursos do HTML5</h1>
+        <div>
+            <video width="540" height="320" controls>
+                <source src="video/google.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div>
+            <audio controls>
+                <source src="audios/18 - PORQUE NAO VE.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div>
+            <figure>
+                <img src="img/unnamed.png" alt="Char">
+                <figcaption>Alyson's character</figcaption>
+            </figure>
+        </div>
+        <div>
+            <h1>Preencha o formulário para receber novidades!</h1>
+            <form>
+                <label>E-Mail:</label>
+                <input type="email" name="email" required placeholder="Digite seu E-Mail" autofocus>
+                <label>Nome:</label>
+                <input type="text" name="name" required placeholder="Digite seu nome completo">
+                <input type="submit" name="Enviar">
+            </form>
+        </div>
+        <div>
+            <p contenteditable="true">Este é o parágrafo editável.</p>
+        </div>
+    </article>
+    
+    <aside>
+        <p>Confira os nossos produtos, <a href="s">Clicando aqui!</a></p>
+    </aside>
+
+    <details>
+        <summary>Java</summary>
+        <p>Uma das linguagens de programação mais usadas no mundo!</p>
+    </details>
+
+    <form>
+        <P>ANIMAIS</P>
+        <input list="animais" name="animal" required placeholder="Selecione o animal" autofocus>
+        <datalist id="animais">
+            <option value="CACHORRO"></option>
+            <option value="GATO"></option>
+            <option value="COELHO"></option>
+            <option value="VEADO"></option>
+        </datalist>
+        <input type="submit" name="Enviar">
+    </form>
+    <progress value="70" max="100">
+    <footer><p>Rodapé</p></footer>
+</body>
+
+</html>
